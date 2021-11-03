@@ -49,10 +49,7 @@ a{
     font-size: 13px;
     padding-right: 5px;
 }
-.header-brand-rigth{
-    margin-top: 170px;
-    width: 15px;
-}
+
 .main-favorite{
     display: flex;
     justify-content: center;
@@ -115,7 +112,7 @@ a{
 }
 .popular-products-text{
     position: absolute;
-    top:150px;
+    bottom: 0.5em;
     color: #fff;
     width:100%;
     padding: 0.3rem 0;
