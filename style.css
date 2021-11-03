@@ -1,0 +1,213 @@
+*{box-sizing: border-box;}
+*{
+    padding:0;
+    margin:0;
+    max-width: 670px;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.header-top{
+    background-color: #292929;
+    display: flex;
+    align-items: center;
+    padding-top:60px;
+    justify-content: center;
+    height: 100px;
+}
+.adidas-left{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top:70px;
+    left:16px;
+    color: #fff;
+
+}
+.header-top h1{
+    color: #fff;
+    font-size: 20px;
+    font-family: Hiragino Kaku Gothic ProN;
+}
+.header-img{
+    background-image: url(unsplash_Cgb4gMKRcMA.png);
+    background-size:cover ;
+    height: 200px;
+}
+.header-brand{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.header-brand a{
+    text-decoration: none;
+    color:#fff;
+}
+.header-brand p{
+    margin-top: 170px;
+    font-size: 13px;
+    padding-right: 5px;
+}
+.header-brand-rigth{
+    margin-top: 170px;
+    width: 15px;
+}
+.main-favorite{
+    display: flex;
+    justify-content: center;
+    border:solid 1px #AA4CF2;
+    border-radius: 10px;
+    margin: 10px;
+    padding:10px 0;
+
+}
+.main-favorite img{
+    width: 25px;
+    margin-right: 10px;
+}
+.main-favorite p{
+    color: #AA4CF2;
+    font-family: Hiragino Kaku Gothic Pro;
+    font-weight: bold;
+}
+.main-notification{
+    margin:30px 5px 10px 5px;
+}
+.main-notification a{
+    color:black;
+    cursor: pointer;
+}
+.main-notification li{
+    list-style: none;
+    border-bottom: 1px solid #C4C4C4;
+    padding:10px 5px;
+    font-family: Hiragino Kaku Gothic Pro;
+    font-weight: bold;
+    font-size: 12px;
+}
+.main-notification p{
+    color:#696969;
+    font-size: 10px;
+}
+.main-point a{
+    text-decoration: none;
+    color:#C4C4C4;
+    cursor: pointer;
+}
+.main-point a:hover{
+    color:#AA4CF2;;
+}
+.main-point{
+    text-align: center;
+}
+.main-popular-products{
+    display: flex;
+    flex-wrap: wrap;
+}
+.popular-content{
+    width: 45%;
+    position: relative;
+    margin:5px;
+}
+.popular-content img{
+    width: 100%;
+}
+.popular-products-text{
+    position: absolute;
+    top:150px;
+    color: #fff;
+    width:100%;
+    padding: 0.3rem 0;
+    background-color: rgb(0, 0, 0, 0.2);
+    text-align: center;
+}
+.popular-products-text a{
+    color: #fff;
+}
+.popular-see{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+.popular-see img{
+    width:15px;
+}
+.popular-see a,p{
+    color: black;
+    font-size:14px;
+    margin-right: 5px;
+}
+.main-category li{
+    border-bottom:1px solid #C4C4C4;
+}
+.main-category p{
+    padding:10px 0 10px 10px;
+    font-weight: bold;
+}
+.category-top{
+    display: flex;
+}
+.category-left{
+    display: flex;
+    width: 80%;;
+}
+.category-left img{
+    width: 35px;
+    margin:5px 5px;
+}
+.category-right{
+    display: flex;
+    width: 20%;
+    justify-content: right;
+    margin-right: 10px;
+}
+.category-right p{
+    justify-content: right;
+    font-weight: normal;
+    font-size: 12px;
+    color: #696969;
+}
+.main-lot-watching{
+    margin-top: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+    border-bottom:1px solid #E5E5E5;
+}
+.main-lot-watching p{
+    font-weight: bold;
+}
+.watching-list{
+    display: flex;
+}
+.box{
+    width:110px;
+    height: 110px;
+    background-color:#C4C4C4;
+    margin-left: 10px;
+    margin-top:10px
+}
+.box-text{
+    text-align: center;
+    margin-top:70px ;
+}
+#box-p{
+    color: #696969;
+    font-size: 10px;
+}
+.all-item{
+    border-radius: 20px;
+    background: #AA4CF2;
+    text-align: center;
+    padding:11px 0;
+    margin:10px 12px 40px 13px;
+}
+.all-item p{
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+.all-item a{
+    color: #fff;
+}
+
